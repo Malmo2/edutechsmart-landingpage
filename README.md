@@ -10,7 +10,7 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 
 ### Backlog
 
-![Alt text](./images/Backlog.png)
+![Alt text](./images/BacklogU.png)
 
 
 ## Technologies
