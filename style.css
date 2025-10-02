@@ -73,7 +73,7 @@ body {
   width: 100%;
   max-width: 500px;
   height: auto;
-
+}
 
 .navbar {
   width: 100%;
@@ -202,4 +202,5 @@ body {
   .navbar-links li {
     margin: 0 1rem;
   }
+}
 }
