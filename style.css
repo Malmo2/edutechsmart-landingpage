@@ -1,4 +1,75 @@
 body {
-   background: #32ABDB;
-   background: linear-gradient(90deg, rgba(50, 171, 219, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(50, 171, 219, 1) 100%);
+  background: #32abdb;
+  background: linear-gradient(
+    90deg,
+    rgba(50, 171, 219, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(50, 171, 219, 1) 100%
+  );
+}
+
+.hero {
+  padding: 80px 20px;
+  color: white;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.hero-cta {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background: white;
+  color: #0298d4;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.hero-trust {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
