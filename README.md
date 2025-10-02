@@ -6,6 +6,29 @@ This project is about re-creating the EduTechSmart website with different ideas 
 ## Pitch
 Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean design, mobile-first, and dark mode—because nobody likes being blinded at midnight.
 
+## Design 
+
+- Minimalist Layout – Focus on clarity and readability with plenty of whitespace.
+
+- Mobile-First Approach – Designed for small screens first, then scaled up for tablets and desktops.
+
+- Dark Mode Friendly – Built-in dark mode toggle for modern usability and reduced eye strain.
+
+- Consistent Color Palette – Chosen to reflect professionalism while staying fresh and modern.
+
+- Typography Hierarchy – Clean, modern fonts with clear headings and body text for easy scanning.
+
+- Interactive Elements – Subtle hover effects, animations, and transitions to improve engagement.
+
+- Accessibility – High-contrast text, keyboard navigation, and semantic HTML for inclusivity.
+
+- Grid-Based Layout – Sections structured with CSS Grid/Flexbox for responsiveness and alignment.
+
+- Reusable Components – Buttons, cards, and navbars designed for consistency across the site.
+
+- Modern Hero Section – Bold headline, clear call-to-action button, and responsive background image/video.
+
+
 ## Statusrapport
 
 ### Backlog
