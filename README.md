@@ -6,6 +6,12 @@ This project is about re-creating the EduTechSmart website with different ideas 
 ## Pitch
 Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean design, mobile-first, and dark mode—because nobody likes being blinded at midnight.
 
+## Statusrapport
+
+### Backlog
+
+![Alt text](./images/Backlog.png)
+
 
 ## Technologies
 - HTML5
@@ -25,8 +31,5 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 3. Add your contributions
 4. Commit and push
 5. Wait for pull request to be merged
-
-## Statusrapport
-
 
 
