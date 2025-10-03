@@ -4,22 +4,21 @@
 }
 
 :root {
-  --black: #03080E;
-  --white: #FFFFFF;
+  --black: #03080e;
+  --white: #ffffff;
   --darker-blue: #153964;
-  --blue: #337BD4;
-  --lighter-blue: #8AB4E6;
+  --blue: #337bd4;
+  --lighter-blue: #8ab4e6;
 }
 
 body {
-
+  font-family: sans-serif, Arial, Helvetica;
   background: var(--white);
-
 }
 
 .hero {
   padding: 80px 20px;
-  color: white;
+  color: #153964;
 }
 
 .hero-container {
@@ -28,6 +27,10 @@ body {
   display: flex;
   align-items: center;
   gap: 60px;
+  border-radius: 12px;
+  box-shadow: 12px 12px 12px rgba(15, 25, 68, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 2rem;
 }
 
 .hero-content {
@@ -53,9 +56,10 @@ body {
 }
 
 .btn-primary {
-  background: white;
-  color: #0298d4;
+  background: #153964;
+  color: #fff;
   padding: 15px 40px;
+  margin-left: 7rem;
   border: none;
   border-radius: 8px;
   font-size: 18px;
@@ -133,8 +137,6 @@ body {
   display: flex;
 }
 
-
-
 .info-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -146,8 +148,8 @@ body {
 
 .info-container h2 {
   font-size: 22px;
-  color: #32ABDB;
-  font-family: 'Courier New', Courier, monospace;
+  color: #32abdb;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 1rem;
 }
 
@@ -170,7 +172,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.info-container>div {
+.info-container > div {
   background: white;
   padding: 2rem;
   border-radius: 12px;
@@ -178,7 +180,7 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.info-container>div:hover {
+.info-container > div:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
@@ -195,7 +197,6 @@ body {
   margin-right: -10px;
   margin-left: -10px;
 }
-
 
 /* Desktop / Tablet */
 @media (min-width: 768px) {
