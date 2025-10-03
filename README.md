@@ -41,12 +41,14 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 | Glas styling | Glas-looking feature | Low | UI Improvements | On hold |
 | SEO & Accessibility | Search optimization | Enhancement/low | MVP | On hold |
 
+![alt text](./images/backlogU.png)
+
 ### Backlog will constantly change and be updated.
 
 
 ## Color Palette
 
-
+![alt text](./images/colorpalette.png)
 
 
 ## Technologies
