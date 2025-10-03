@@ -30,6 +30,8 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 
 
 ## Backlog
+
+### Backlog will constantly change and be updated.
 | Feature | Description | Priority | Milestone | Status |
 | ------- | ----------- | -------- | --------- | ------ |
 | Readme | Project Planning | High | MVP | In progress |
@@ -43,7 +45,7 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 
 ![alt text](./images/backlogU.png)
 
-### Backlog will constantly change and be updated.
+
 
 
 ## Color Palette
