@@ -9,6 +9,7 @@
   --darker-blue: #153964;
   --blue: #337BD4;
   --lighter-blue: #8AB4E6;
+  --gray: rgba(94, 94, 94, 0.712);
 }
 
 body {
@@ -183,6 +184,14 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+#testimonial-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: var(--gray);
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -195,7 +204,6 @@ body {
   margin-right: -10px;
   margin-left: -10px;
 }
-
 
 /* Desktop / Tablet */
 @media (min-width: 768px) {
@@ -213,4 +221,5 @@ body {
   .navbar-links li {
     margin: 0 1rem;
   }
+
 }

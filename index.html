@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduTechSmart Global</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousel.css">
 </head>
 
 <body>
@@ -32,29 +33,30 @@
     </header>
     <main>
         <!-- Hero Section -->
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Engaging Healthcare Education, Designed for Your Team</h1>
-                <p class="hero-subtitle">Give your healthcare staff the flexible, accessible training they deserve.
-                    EduTechSmart's gamified courses make learning CPR, Fire Safety, and compliance both effective and
-                    enjoyable—available 24/7, in 20+ languages, on any device.</p>
-                <div class="hero-cta">
-                    <button class="btn-primary">Our Technology</button>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Engaging Healthcare Education, Designed for Your Team</h1>
+                    <p class="hero-subtitle">Give your healthcare staff the flexible, accessible training they deserve.
+                        EduTechSmart's gamified courses make learning CPR, Fire Safety, and compliance both effective
+                        and
+                        enjoyable—available 24/7, in 20+ languages, on any device.</p>
+                    <div class="hero-cta">
+                        <button class="btn-primary">Our Technology</button>
+                    </div>
+                    <div class="hero-trust">
+                        <p>✓ 20+ Languages ✓ Works Everywhere ✓ No Classroom Needed</p>
+                    </div>
                 </div>
-                <div class="hero-trust">
-                    <p>✓ 20+ Languages ✓ Works Everywhere ✓ No Classroom Needed</p>
+                <div class="hero-img">
+                    <img src="./images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg"
+                        alt="EduTechSmart Platform" />
                 </div>
             </div>
-            <div class="hero-img">
-                <img src="./images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg" alt="EduTechSmart Platform" />
-            </div>
-        </div>
-    </section>
+        </section>
 
         </section>
-        <!-- Testimonials -->
         <div class="info-container">
 
             <div class="info-1">
@@ -93,9 +95,28 @@
                 <p>Education with us is affordable, effective, and accessible everywhere and on every device!</p>
             </div>
         </div>
-        <section>
-
-        </section>
+        <h2 id="testimonial-heading">Testimonials</h2>
+        <div class="testimonial-container">
+            <section class="carousel-widget">
+                <div class="carousel-viewport">
+                    <div class="carousel-track">
+                        <div class="testimonial-card">
+                            <img src="./images/200pxPlaceholder.jpg" alt="quote">
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="./images/200Cow.jpg">
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="./images/200Road.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-buttons">
+                    <button class="carousel-btn prev" data-dir="prev" aria-label="Previous slide">‹</button>
+                    <button class="carousel-btn next" data-dir="next" aria-label="Next slide">›</button>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         <p>&copy; 2025 EduTechSmart Global. Alla rättigheter förbehållna.</p>
@@ -105,6 +126,7 @@
         </nav>
     </footer>
     <script src="main.js"></script>
+    <script src="carousel.js"></script>
 </body>
 
 </html>
