@@ -1,12 +1,47 @@
-body {
 
-  background: #32abdb;
+body {
+background: #32abdb;
   background: linear-gradient(
-    90deg,
-    rgba(50, 171, 219, 1) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(50, 171, 219, 1) 100%
+  90deg,
+  rgba(50, 171, 219, 1) 0%,
+  rgba(255, 255, 255, 1) 50%,
+  rgba(50, 171, 219, 1) 100%
   );
+}
+
+.toggle-darkmode.icon-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 0.75rem;
+  cursor: pointer;
+  margin-top: 0;
+  color: var(--text);
+}
+.toggle-darkmode {
+  background: transparent;
+}
+
+:root{
+  --bg: linear-gradient(90deg, rgba(50,171,219,1) 0%, rgba(255,255,255,1) 50%, rgba(50,171,219,1) 100%);
+  --surface: #ffffff;
+  --text: #111111;
+  --muted: #666666;
+  --accent: #0298d4;
+}
+
+html[data-theme="dark"]{
+  --bg: #000000;
+  --surface: #0b0f13;
+  --text: #ffffff;
+  --muted: #9fb3c8;
+  --accent: #39b4ff;
+}
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  transition: background .2s ease, color .2s ease;
 }
 
 .hero {
@@ -79,19 +114,54 @@ body {
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #eee;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
+}
+
+.toggle-darkmode.icon-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 0.75rem;
+  cursor: pointer;
+  margin-top: 1rem;
+
+}
+.toggle-darkmode {
+  background-color: black;
 }
 
 .logo {
   font-weight: bold;
   font-size: 1.2rem;
   color: #2188b6; /* Custom logo color */
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 48px;
+  width: auto;
+  height: auto;
+  
+}
+
+
+/* Smaller logo on mobile */
+@media (max-width: 480px) {
+  .logo-img {
+    max-height: 36px;
+  }
 }
 
 .icon-btn {

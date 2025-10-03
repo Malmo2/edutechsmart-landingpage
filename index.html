@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduTechSmart Global</title>
+     <script>
+    try {
+      const theme = localStorage.getItem('theme');
+      if (theme === 'dark' || theme === 'light') {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
+    } catch (e) {
+    }
+  </script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,10 +21,11 @@
     <header>
         <nav class="navbar">
             <div class="navbar-top">
-                <div class="logo">EduTechSmart</div>
+                <div class="logo"><img class="logo-img" src="https://www.edutechsmart.com/wp-content/uploads/2023/07/RetinaLogo_EduTech_gradient.png" alt="EduTechSmart Logo"></div>
                 <button class="icon-btn search">
                     <span>🔍</span>
                 </button>
+                
                 <button class="icon-btn menu-toggle" aria-label="Toggle menu">
                     <span>☰</span>
                  </button>
@@ -31,8 +41,7 @@
         </nav>
     </header>
     <main>
-        <!-- Hero Section -->
-    <!-- Hero Section -->
+    <button id="toggle-darkmode" class="toggle-darkmode icon-btn" aria-label="Byt tema">🌓</button>
     <section class="hero">
         <div class="hero-container">
             <div class="hero-content">
@@ -104,7 +113,7 @@
         <a href="#contact">Kontakt</a>
     </nav>
 </footer>
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
