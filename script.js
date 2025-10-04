@@ -3,3 +3,4 @@ const navbar = document.querySelector('.navbar');
 menuBtn.addEventListener('click', () => {
   navbar.classList.toggle('menu-open');
 });
+
