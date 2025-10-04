@@ -36,7 +36,7 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 | ------- | ----------- | -------- | --------- | ------ |
 | Readme | Project Planning | High | MVP | In progress |
 | Navigations Menu | Menu with links | High | MVP | In progress |
-| Testimonials | Testimonials from clients | Enhancement/low | UI Improvements | On hold |
+| Testimonials | Testimonials from clients | Enhancement/low | UI Improvements | Code review |
 | Footer | Footer with contact information | High | MVP | In progress |
 | Hero section | Introduction to content | High | MVP | In progress |
 | Dark Mode | Button for darkmode option | Low  | UI Improvements | On hold |
