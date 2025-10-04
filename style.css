@@ -7,8 +7,14 @@
   --black: #03080e;
   --white: #ffffff;
   --darker-blue: #153964;
+<<<<<<< HEAD
+  --blue: #337BD4;
+  --lighter-blue: #8AB4E6;
+  --gray: rgba(94, 94, 94, 0.712);
+=======
   --blue: #337bd4;
   --lighter-blue: #8ab4e6;
+>>>>>>> 1466ddb84431280f74634369bc7da642203aab5d
 }
 
 body {
@@ -185,6 +191,14 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+#testimonial-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: var(--gray);
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -214,4 +228,9 @@ body {
   .navbar-links li {
     margin: 0 1rem;
   }
+<<<<<<< HEAD
+
 }
+=======
+}
+>>>>>>> 1466ddb84431280f74634369bc7da642203aab5d
