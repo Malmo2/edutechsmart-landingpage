@@ -129,7 +129,7 @@
       transform: translateX(-50%);
       width: min(var(--content-max), 90%);
       pointer-events: none;
-      padding: 0 100px;
+      padding: 0 1rem;
   }
 
   .carousel-btn {
