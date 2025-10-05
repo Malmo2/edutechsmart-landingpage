@@ -1,7 +1,7 @@
-const menuBtn = document.querySelector('.menu-toggle');
-const navbar = document.querySelector('.navbar');
-menuBtn.addEventListener('click', () => {
-  navbar.classList.toggle('menu-open');
+const menuBtn = document.querySelector(".menu-toggle");
+const navbar = document.querySelector(".navbar");
+menuBtn.addEventListener("click", () => {
+  navbar.classList.toggle("menu-open");
 });
 
 // Darkmode button 
@@ -22,4 +22,10 @@ themeCheck.addEventListener('change', (e) => {
   } else {
     root.classList.remove('dark-mode');
   }
+});
+
+const btnHero = document.querySelector(".btn-hero");
+btnHero.addEventListener("click", () => {
+  btnHero.style.backgroundColor = "#8AB4E6";
+  btnHero.style.color = "#153964";
 });
