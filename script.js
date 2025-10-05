@@ -4,3 +4,22 @@ menuBtn.addEventListener('click', () => {
   navbar.classList.toggle('menu-open');
 });
 
+// Darkmode button 
+
+const themeCheck = document.getElementById('theme-toggle');
+const root = document.documentElement;
+
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+if (prefersDark) {
+  root.classList.add('dark-mode');
+  themeCheck.checked = true;
+}
+
+themeCheck.addEventListener('change', (e) => {
+  const isON = e.currentTarget.checked;
+  if (isON) {
+    root.classList.add('dark-mode');
+  } else {
+    root.classList.remove('dark-mode');
+  }
+});

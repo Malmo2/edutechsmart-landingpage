@@ -14,6 +14,11 @@
   --darker-gray: #333;
 }
 
+.dark-mode {
+  --white: #0b0b0e;
+  --black: #f3f4f6;
+}
+
 body {
   font-family: sans-serif, Arial, Helvetica;
   background: var(--white);
