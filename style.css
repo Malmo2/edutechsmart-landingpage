@@ -76,11 +76,12 @@ body {
 .btn-primary {
   background: var(--darker-blue);
   color: var(--btn-primary-color);
-=======
+}
+
 .btn-hero {
   background: #153964;
   color: #fff;
-  
+
   padding: 15px 40px;
   margin-left: 7rem;
   border: none;
@@ -90,6 +91,7 @@ body {
   cursor: pointer;
   transition: transform 0.2s;
 }
+
 
 .btn-primary:hover {
   transform: scale(1.05);
