@@ -257,6 +257,25 @@ body{
     margin-left: -10px;
 }
 
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 0.5em;
+    
+}
+.footer-icon, .footer-icon1, .footer-icon2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.contact{
+  margin-left: 16px;
+}
+.contact:visited{
+  color: white
+}
 
 /* Desktop / Tablet */
 @media (min-width: 768px) {
