@@ -7,21 +7,28 @@
   --black: #03080e;
   --white: #ffffff;
   --darker-blue: #153964;
-
   --blue: #337BD4;
   --lighter-blue: #8AB4E6;
   --gray: rgba(94, 94, 94, 0.712);
   --darker-gray: #333;
+  --btn-primary-color: var(--white);
 }
 
 .dark-mode {
   --white: #0b0b0e;
   --black: #f3f4f6;
+  --darker-gray: var(--black);
+  --gray: var(--black);
+  --btn-primary-color: var(--black);
 }
 
 body {
   font-family: sans-serif, Arial, Helvetica;
   background: var(--white);
+  color: var(--black);
+}
+
+.dark-mode :where(h2, h3, h4, h5, h6, p, li, a, span, small, strong, em, blockquote, label) {
   color: var(--black);
 }
 
@@ -51,6 +58,7 @@ body {
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1.2;
+  color: var(--blue);
 }
 
 .hero-subtitle {
@@ -66,7 +74,7 @@ body {
 
 .btn-primary {
   background: var(--darker-blue);
-  color: var(--white);
+  color: var(--btn-primary-color);
   padding: 15px 40px;
   margin-left: 7rem;
   border: none;
@@ -239,13 +247,13 @@ body {
   background: var(--white);
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 8px rgba(15, 25, 68, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .info-container>div:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 12 12px 20px rgba(15, 25, 68, 0.1);
 }
 
 #testimonial-heading {
@@ -298,5 +306,4 @@ body {
   .theme-toggle__input:checked+.theme-toggle__label .theme-toggle__visual::before {
     transform: translateX(25px);
   }
-
 }
