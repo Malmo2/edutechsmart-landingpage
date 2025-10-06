@@ -313,6 +313,37 @@ body {
   padding: 20px;
   margin-top: 4rem;
   color: var(--blue);
+
+}
+
+.video-container .videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+  background: #222;
+  color: #fff;
+  margin: 0;         /* ← reset all margins */
+  width: 100%;       /* ← avoid negative side margins */
+  border-top: 1px solid #333; /* optional subtle separator */
+
+
 }
 
 .video-container .videos {
@@ -342,6 +373,7 @@ body {
   width: 100%;       /* ← avoid negative side margins */
   border-top: 1px solid #333; /* optional subtle separator */
 }
+
 
 
 
@@ -416,7 +448,10 @@ body {
 }
 .search-input::placeholder{
   padding: 5px;
+
   /* font-family: sans-serif; */
+  font-family: sans-serif;
+
   color: #03080e;
 }
 
