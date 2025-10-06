@@ -1,36 +1,37 @@
-  :root {
-      --card-gap: 0px;
-      --btn-size: 28px;
-      --btn-bg: rgba(0, 0, 0, 0.4);
-      --track-ease: 700ms ease;
-      --content-max: 520px;
-      --arrow-inset: 8px;
+:root {
+  --card-gap: 0px;
+  --btn-size: 28px;
+  --btn-bg: rgba(0, 0, 0, 0.25);
+  --carousel-btn-hover: rgba(0, 0, 0, 0.55);
+  --carousel-btn-color: #ffffff;
 
-      --black: #03080e;
-      --white: #ffffff;
-      --darker-blue: #153964;
-      --blue: #337BD4;
-      --lighter-blue: #8AB4E6;
-      --gray: rgba(94, 94, 94, 0.712);
-      --darker-gray: #333;
-      --btn-primary-color: var(--white);
-      --carousel-btn-hover: rgba(0,0,0,.65);
-  }
+  --track-ease: 700ms ease;
+  --content-max: 520px;
+  --arrow-inset: 8px;
 
+  --black: #03080e;
+  --white: #ffffff;
+  --darker-blue: #153964;
+  --blue: #337BD4;
+  --lighter-blue: #8AB4E6;
+  --gray: rgba(94, 94, 94, 0.712);
+  --darker-gray: #333;
+  --btn-primary-color: var(--white);
+}
 
+.dark-mode {
+  --white: #0b0b0e;
+  --black: #f3f4f6;
+  --darker-gray: var(--black);
+  --gray: var(--black);
+  --btn-primary-color: var(--black);
 
-  .dark-mode {
-      --white: #0b0b0e;
-      --black: #f3f4f6;
-      --darker-gray: var(--black);
-      --gray: var(--black);
-      --btn-primary-color: var(--black);
-      --carousel-btn-hover: rgba(255, 255, 255, 0.4);
-  }
+  
+  --btn-bg: rgba(255, 255, 255, 0.25);
+  --carousel-btn-hover: rgba(255, 255, 255, 0.45); 
+  --carousel-btn-color: #000000;               
+}
 
-  .dark-mode :where(h2, h3, h4, h5, h6, p, li, a, span, small, strong, em, blockquote, label) {
-      color: var(--black);
-  }
 
 
   .testimonial-container {
