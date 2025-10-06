@@ -8,12 +8,15 @@ const btnHero = document.querySelector(".btn-hero");
 btnHero.addEventListener("click", () => {
   btnHero.style.backgroundColor = "#8AB4E6";
   btnHero.style.color = "#153964";
+});
 
+const originalBgColor = "#153964";
+const originalTextColor = "#fff";
 
-  setTimeout(() => {
+btnHero.addEventListener("mouseleave", () => {
     btnHero.style.backgroundColor = originalBgColor;
     btnHero.style.color = originalTextColor;
-  }, 5000);
 });
+
 
 
