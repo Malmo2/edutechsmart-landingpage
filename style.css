@@ -152,13 +152,7 @@ body {
   width: 350px;
 }
 
-.icon-btn {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  margin-left: 0.75rem;
-  cursor: pointer;
-}
+
 
 /* Mobile: hide links, show menu toggle */
 .navbar-links {
@@ -181,6 +175,14 @@ body {
 .menu-open .navbar-links {
   display: flex;
 }
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 0.75rem;
+  cursor: pointer;
+}
+
 
 .theme-toggle {
   display: flex;
@@ -326,6 +328,9 @@ body {
 .contact:visited{
   color: white
 }
+.form{
+  display: none;
+}
 
 /* Desktop / Tablet */
 @media (min-width: 768px) {
@@ -366,4 +371,23 @@ body {
   .hero-img {
     order: 0;
   }
+  .search-input{
+  width: 250px;
+  height: 28px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.search-input::placeholder{
+  padding: 5px;
+  font-family: sans-serif;
+  color: #03080e;
+}
+
+.form {
+  display: block;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+
 }
