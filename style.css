@@ -77,7 +77,7 @@ body {
   color: var(--blue);
 }
 
-.hero-subtitle {
+.hero-paragraph {
   font-size: 20px;
   margin-bottom: 30px;
   opacity: 0.9;
