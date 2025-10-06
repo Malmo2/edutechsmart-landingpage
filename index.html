@@ -12,51 +12,74 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="navbar-top">
-                <div class="logo"><img class="logotype" src="https://www.edutechsmart.com/wp-content/uploads/2023/07/RetinaLogo_EduTech_gradient.png" alt="Logotype"></div>
-                <form class = "form">
-            <input class= "search-input" type="Search" name="q" placeholder="Search..."/>
-                <button class="icon-btn search">
-                    <span>🔍</span>
-                </button>
-                <button class="icon-btn menu-toggle" aria-label="Toggle menu">
-                    <span>☰</span>
-                </button>
-                </form>
+            <div class="navbar-container">
+                <div class="logo">
+                    <img class="logotype" src="https://www.edutechsmart.com/wp-content/uploads/2023/07/RetinaLogo_EduTech_gradient.png" alt="Logotype">
+                </div>
+                
+                <ul class="navbar-links">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-translate="nav-home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-translate="nav-about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-translate="nav-tech">OUR TECH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-translate="nav-portal">EDUCATION-PORTAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-translate="nav-news">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-translate="nav-contactus">CONTACT US</a>
+                    </li>
+                </ul>
+
+                <div class="nav-actions">
+                    <form class="search-form">
+                        <input class="search-input" type="search" name="q" placeholder="Search..." data-translate="search-placeholder" />
+                        <button class="search-btn" type="submit" aria-label="Search">
+                            <span>🔍</span>
+                        </button>
+                    </form>
+                    
+                    <button class="language-toggle" id="language-toggle" aria-label="Change language">
+                        <span class="language-toggle__text">EN</span>
+                    </button>
+                    
+                    <div class="theme-toggle">
+                        <input type="checkbox" id="theme-toggle" class="theme-toggle__input">
+                        <label for="theme-toggle" class="theme-toggle__label" aria-label="Toggle dark mode">
+                            <span class="theme-toggle__icon" aria-hidden="true">☀️</span>
+                        </label>
+                    </div>
+                    
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
             </div>
-            <ul class="navbar-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Our Tech</a></li>
-                <li><a href="#">Education-Portal</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
         </nav>
     </header>
-    <div class="theme-toggle">
-        <input type="checkbox" id="theme-toggle" class="theme-toggle__input">
-        <label for="theme-toggle" class="theme-toggle__label">
-            <span class="theme-toggle__visual" aria-hidden="true"></span>
-            <span class="theme-toggle__text">Dark mode</span>
-        </label>
-    </div>
     <main>
 
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-container">
                 <div class="hero-content">
-                    <h1 class="hero-title">Engaging Healthcare Education</h1>
-                    <p class="hero-paragraph">Give your healthcare staff the flexible, accessible training they deserve.
+                    <h1 class="hero-title" data-translate="hero-title">Engaging Healthcare Education</h1>
+                    <p class="hero-paragraph" data-translate="hero-paragraph">Give your healthcare staff the flexible, accessible training they deserve.
                         EduTechSmart's gamified courses make learning CPR, Fire Safety, and compliance both effective
                         and
                         enjoyable—available 24/7, on any device.</p>
                     <div class="hero-btn">
-                        <button class="btn-hero">Our Technology</button>
+                        <button class="btn-hero" data-translate="hero-btn">Our Technology</button>
                     </div>
                     <div class="hero-info">
-                        <p>✓ 20+ Languages  ✓ Works Everywhere  ✓ No Classroom Needed</p>
+                        <p data-translate="hero-info">✓ 20+ Languages  ✓ Works Everywhere  ✓ No Classroom Needed</p>
                     </div>
                 </div>
                 <div class="hero-img">
@@ -69,39 +92,39 @@
         <div class="info-container">
 
             <div class="info-1">
-                <h2>NO CLASSROOM NEEDED</h2>
-                <p><strong>EducateSmart™</strong> is our dedicated platform, offering healthcare companies essential
+                <h2 data-translate="info1-title">NO CLASSROOM NEEDED</h2>
+                <p data-translate="info1-p1"><strong>EducateSmart™</strong> is our dedicated platform, offering healthcare companies essential
                     educational tools to drive and maintain unparalleled quality standards.</p>
-                <p>EduTechSmart plays a crucial role in reshaping the educational landscape with our innovative
+                <p data-translate="info1-p2">EduTechSmart plays a crucial role in reshaping the educational landscape with our innovative
                     approach.</p>
-                <p>Our educational methodology is designed for easy and convenient access, seamlessly incorporating a
+                <p data-translate="info1-p3">Our educational methodology is designed for easy and convenient access, seamlessly incorporating a
                     diverse range of features including gamified scenario-based training, video content, 3D animation,
                     and modern assessment techniques, all enhanced by AI.</p>
             </div>
 
             <div class="info-2">
-                <h2>DEVELOPED BY EXPERTS, <br> VERIFIED BY EXPERTS</h2>
-                <p>EduTechSmart draws from decades of expertise spanning healthcare, IT, gaming, and education, all
+                <h2 data-translate="info2-title">DEVELOPED BY EXPERTS, <br> VERIFIED BY EXPERTS</h2>
+                <p data-translate="info2-p1">EduTechSmart draws from decades of expertise spanning healthcare, IT, gaming, and education, all
                     enriched by cutting-edge AI advancements. Our courses are crafted by seasoned professionals
                     well-versed in industry standards, regulations, and guidelines. We prioritize alignment with local
                     norms and best practices.</p>
             </div>
 
             <div class="info-3">
-                <h2>BENEFITS</h2>
+                <h2 data-translate="info3-title">BENEFITS</h2>
                 <ul>
-                    <li>Cost-efficient</li>
-                    <li>User-friendly planning</li>
-                    <li>Repeatable modules</li>
-                    <li>24/7 accessibility</li>
-                    <li>Scenario based</li>
-                    <li>Localized in &gt;20 languages</li>
-                    <li>Customizable characters and environments</li>
-                    <li>Seamless access on PC/MAC, mobile, or tablet</li>
-                    <li>Content not found in typical online courses</li>
-                    <li>Eco-friendly approach</li>
+                    <li data-translate="benefit1">Cost-efficient</li>
+                    <li data-translate="benefit2">User-friendly planning</li>
+                    <li data-translate="benefit3">Repeatable modules</li>
+                    <li data-translate="benefit4">24/7 accessibility</li>
+                    <li data-translate="benefit5">Scenario based</li>
+                    <li data-translate="benefit6">Localized in &gt;20 languages</li>
+                    <li data-translate="benefit7">Customizable characters and environments</li>
+                    <li data-translate="benefit8">Seamless access on PC/MAC, mobile, or tablet</li>
+                    <li data-translate="benefit9">Content not found in typical online courses</li>
+                    <li data-translate="benefit10">Eco-friendly approach</li>
                 </ul>
-                <p>Education with us is affordable, effective, and accessible everywhere and on every device!</p>
+                <p data-translate="info3-p1">Education with us is affordable, effective, and accessible everywhere and on every device!</p>
             </div>
         </div>
 
@@ -128,7 +151,7 @@
     </iframe>
   </section>
 </div>
-        <h2 id="testimonial-heading">Testimonials</h2>
+        <h2 id="testimonial-heading" data-translate="testimonials-heading">Testimonials</h2>
         <div class="testimonial-container">
             <section class="carousel-widget">
                 <div class="carousel-viewport">
@@ -248,9 +271,9 @@
         
     </main>
     <footer class="footer">
-        <p>&copy; 2025 EduTechSmart Global. All rights reserved.</p>
+        <p data-translate="footer-copyright">&copy; 2025 EduTechSmart Global. All rights reserved.</p>
     <div>
-        <a class = "contact" href="#contact">Contact us</a>
+        <a class = "contact" href="#contact" data-translate="footer-contact">Contact us</a>
         <div class = "footer-icons">
         <a class="footer-image" href="https://www.linkedin.com/company/edutechsmart" target="_blank" rel="noopener noreferrer" aria-label="EduTechSmart on LinkedIn">
         <img class="footer-icon" src="https://cdn-icons-png.flaticon.com/128/3991/3991775.png" alt="LinkedIn" />
@@ -266,6 +289,7 @@
     <script src="script.js"></script>
     <script src="carousel.js"></script>
     <script src="darkmode.js" defer></script>
+    <script src="translate.js"></script>
 </body>
 
 </html>
