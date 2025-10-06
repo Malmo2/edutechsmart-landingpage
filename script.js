@@ -1,3 +1,4 @@
+// Mobile menu toggle
 const menuBtn = document.querySelector('.menu-toggle');
 const navbar = document.querySelector('.navbar');
 const body = document.body;
@@ -29,6 +30,9 @@ const originalBgColor = "#153964";
 const originalTextColor = "#fff";
 
 btnHero.addEventListener("mouseleave", () => {
-    btnHero.style.backgroundColor = originalBgColor;
-    btnHero.style.color = originalTextColor;
+  btnHero.style.backgroundColor = originalBgColor;
+  btnHero.style.color = originalTextColor;
 });
+
+
+

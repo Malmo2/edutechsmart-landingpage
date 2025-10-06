@@ -1,179 +1,179 @@
 :root {
-  --card-gap: 0px;
-  --btn-size: 28px;
-  --btn-bg: rgba(0, 0, 0, 0.25);
-  --carousel-btn-hover: rgba(0, 0, 0, 0.55);
-  --carousel-btn-color: #ffffff;
+    --card-gap: 0px;
+    --btn-size: 28px;
+    --btn-bg: rgba(0, 0, 0, 0.25);
+    --carousel-btn-hover: rgba(0, 0, 0, 0.55);
+    --carousel-btn-color: #ffffff;
 
-  --track-ease: 700ms ease;
-  --content-max: 520px;
-  --arrow-inset: 8px;
+    --track-ease: 700ms ease;
+    --content-max: 520px;
+    --arrow-inset: 8px;
 
-  --black: #03080e;
-  --white: #ffffff;
-  --darker-blue: #153964;
-  --blue: #337BD4;
-  --lighter-blue: #8AB4E6;
-  --gray: rgba(94, 94, 94, 0.712);
-  --darker-gray: #333;
-  --btn-primary-color: var(--white);
+    --black: #03080e;
+    --white: #ffffff;
+    --darker-blue: #153964;
+    --blue: #337BD4;
+    --lighter-blue: #8AB4E6;
+    --gray: rgba(94, 94, 94, 0.712);
+    --darker-gray: #333;
+    --btn-primary-color: var(--white);
 }
 
 .dark-mode {
-  --white: #0b0b0e;
-  --black: #f3f4f6;
-  --darker-gray: var(--black);
-  --gray: var(--black);
-  --btn-primary-color: var(--black);
+    --white: #0b0b0e;
+    --black: #f3f4f6;
+    --darker-gray: var(--black);
+    --gray: var(--black);
+    --btn-primary-color: var(--black);
 
-  
-  --btn-bg: rgba(255, 255, 255, 0.25);
-  --carousel-btn-hover: rgba(255, 255, 255, 0.45); 
-  --carousel-btn-color: #000000;               
+
+    --btn-bg: rgba(255, 255, 255, 0.25);
+    --carousel-btn-hover: rgba(255, 255, 255, 0.45);
+    --carousel-btn-color: #000000;
 }
 
 
 
-  .testimonial-container {
-      width: 100%;
-  }
+.testimonial-container {
+    width: 100%;
+}
 
-  .carousel-widget {
-      position: relative;
-      width: 100%;
-      max-width: 1100px;
-      margin: 0 auto;
-      touch-action: pan-y;
-  }
+.carousel-widget {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    touch-action: pan-y;
+}
 
-  .carousel-viewport {
-      overflow: hidden;
-      width: 100%;
-  }
+.carousel-viewport {
+    overflow: hidden;
+    width: 100%;
+}
 
-  .carousel-track {
-      display: flex;
-      will-change: transform;
-      transition: transform var(--track-ease);
-  }
+.carousel-track {
+    display: flex;
+    will-change: transform;
+    transition: transform var(--track-ease);
+}
 
-  .testimonial-card {
-      flex: 0 0 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 2rem 1rem;
-      box-sizing: border-box;
-  }
+.testimonial-card {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+}
 
-  .testimonial-content {
-      max-width: 700px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.5rem;
+.testimonial-content {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 
-  }
+}
 
-  .testimonial-quote {
-      font-style: italic;
-      font-size: 1.4rem;
-      color: var(--black);
-      line-height: 1.5;
-      margin: 0;
-  }
+.testimonial-quote {
+    font-style: italic;
+    font-size: 1.4rem;
+    color: var(--black);
+    line-height: 1.5;
+    margin: 0;
+}
 
-  .testimonial-profile {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-  }
+.testimonial-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
-  .testimonial-avatar img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-  }
+.testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
-  .testimonial-meta {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-  }
+.testimonial-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-  .testimonial-name {
-      font-weight: 700;
-      font-size: 1.1rem;
-      margin: 0;
-      color: var(--black);
-  }
+.testimonial-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--black);
+}
 
-  .testimonial-card img {
-      display: block;
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1rem;
-  }
+.testimonial-card img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
 
-  .carousel.viewport .carousel-track {
-      margin: 0 calc(var(--card-gap) * -1);
-  }
+.carousel.viewport .carousel-track {
+    margin: 0 calc(var(--card-gap) * -1);
+}
 
-  .carousel-buttons {
-      position: absolute;
-      top: 0;
-      bottom: -60px;
-      left: 50%;
-      right: auto;
-      transform: translateX(-50%);
-      width: min(var(--content-max), 90%);
-      pointer-events: none;
-      padding: 0 1rem;
-  }
+.carousel-buttons {
+    position: absolute;
+    top: 0;
+    bottom: -60px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: min(var(--content-max), 90%);
+    pointer-events: none;
+    padding: 0 1rem;
+}
 
-  .carousel-btn {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: var(--btn-size);
-      height: var(--btn-size);
-      border-radius: 999px;
-      border: none;
-      background: var(--btn-bg);
-      color: var(--white);
-      font-size: 18px;
-      line-height: 1;
-      display: grid;
-      place-items: center;
-      cursor: pointer;
-      pointer-events: auto;
-  }
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: var(--btn-size);
+    height: var(--btn-size);
+    border-radius: 999px;
+    border: none;
+    background: var(--btn-bg);
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    pointer-events: auto;
+}
 
-  .carousel-btn.prev {
-      left: var(--arrow-inset);
-  }
+.carousel-btn.prev {
+    left: var(--arrow-inset);
+}
 
-  .carousel-btn.next {
-      right: var(--arrow-inset);
-  }
+.carousel-btn.next {
+    right: var(--arrow-inset);
+}
 
-  .carousel-btn:hover,
-  .carousel-btn:focus-visible {
-      background: var(--carousel-btn-hover);
-      outline: none;
-  }
+.carousel-btn:hover,
+.carousel-btn:focus-visible {
+    background: var(--carousel-btn-hover);
+    outline: none;
+}
 
-  .carousel-btn:focus-visible {
-      box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6);
-  }
+.carousel-btn:focus-visible {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6);
+}
 
-  @media (prefers-reduced-motion: reduce) {
-      .carousel-track {
-          transition: none;
-      }
-  }
+@media (prefers-reduced-motion: reduce) {
+    .carousel-track {
+        transition: none;
+    }
+}
