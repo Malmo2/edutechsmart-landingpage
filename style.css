@@ -72,8 +72,9 @@ body {
 }
 
 .hero-title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
+  padding: 15px;
   margin-bottom: 20px;
   line-height: 1.2;
   color: var(--blue);
@@ -91,19 +92,13 @@ body {
 }
 
 .btn-hero {
-  background: var(--darker-blue);
-  color: var(--btn-primary-color);
-}
-
-.btn-hero {
   background: #153964;
   color: #fff;
-
   padding: 15px 40px;
   margin-left: 7rem;
   border: none;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s;
@@ -264,7 +259,7 @@ body {
 .info-container h2 {
   font-size: 22px;
   color: var(--blue);
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
   margin-bottom: 1rem;
 }
 
@@ -318,6 +313,37 @@ body {
   padding: 20px;
   margin-top: 4rem;
   color: var(--blue);
+
+}
+
+.video-container .videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 640px;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+  background: #222;
+  color: #fff;
+  margin: 0;         /* ← reset all margins */
+  width: 100%;       /* ← avoid negative side margins */
+  border-top: 1px solid #333; /* optional subtle separator */
+
+
 }
 
 .video-container .videos {
@@ -347,6 +373,7 @@ body {
   width: 100%;       /* ← avoid negative side margins */
   border-top: 1px solid #333; /* optional subtle separator */
 }
+
 
 
 
@@ -421,7 +448,10 @@ body {
 }
 .search-input::placeholder{
   padding: 5px;
+
+  /* font-family: sans-serif; */
   font-family: sans-serif;
+
   color: #03080e;
 }
 
