@@ -61,7 +61,7 @@ body {
   align-items: center;
   gap: 60px;
   border-radius: 12px;
-  box-shadow: 12px 12px 12px rgba(15, 25, 68, 0.1);
+  box-shadow: 12px 12px 12px rgba(15, 25, 68, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   padding: 2rem;
 }
@@ -127,6 +127,16 @@ body {
   max-width: 500px;
   height: auto;
   border-radius: 5px;
+}
+
+.dark-mode .hero-container {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 12px 12px 12px rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .hero-img img {
+  opacity: 0.95;
 }
 
 .navbar {
@@ -281,6 +291,17 @@ body {
 .info-container > div:hover {
   transform: translateY(-5px);
   box-shadow: 12 12px 20px rgba(15, 25, 68, 0.1);
+}
+
+.dark-mode .info-container > div {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .info-container > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 12px 12px 20px rgba(255, 255, 255, 0.15);
 }
 
 #testimonial-heading {
