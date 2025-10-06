@@ -143,6 +143,7 @@
       height: var(--btn-size);
       border-radius: 999px;
       border: none;
+      background: var(--btn-bg);
       color: var(--white);
       font-size: 18px;
       line-height: 1;
