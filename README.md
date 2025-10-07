@@ -35,12 +35,12 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 | Feature | Description | Priority | Milestone | Status |
 | ------- | ----------- | -------- | --------- | ------ |
 | Readme | Project Planning | High | MVP | In progress |
-| Navigations Menu | Menu with links | High | MVP | In progress |
-| Testimonials | Testimonials from clients | Enhancement/low | UI Improvements | Code review |
-| Footer | Footer with contact information | High | MVP | In progress |
-| Hero section | Introduction to content | High | MVP | In progress |
+| Navigations Menu | Menu with links | High | MVP | Done |
+| Testimonials | Testimonials from clients | Enhancement/low | UI Improvements | Done |
+| Footer | Footer with contact information | High | MVP | Done |
+| Hero section | Introduction to content | High | MVP | Done |
 | Info Section | Information about services | High | MVP | Done |
-| Dark Mode | Button for darkmode option | Low  | UI Improvements | On hold |
+| Dark Mode | Button for darkmode option | Low  | UI Improvements | Done |
 | Glas styling | Glas-looking feature | Low | UI Improvements | On hold |
 | SEO & Accessibility | Search optimization | Enhancement/low | MVP | On hold |
 | Video Section | Section with videos | Moderate | UI Improvements | Done |
