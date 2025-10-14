@@ -66,6 +66,7 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 - Emelie Björkman
 - Idris Ahmed
 - Madeeha Basit
+- Ana Maria Donoso
 
 ## Installation
 
