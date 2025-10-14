@@ -60,10 +60,12 @@ Our mission: make EduTechSmart’s landing page feel like 2025, not 2012. Clean 
 - JavaScript
 
 ## Collaborators
-- https://github.com/meskilsson
-- https://github.com/Benjameabi
-- https://github.com/bjorkmanemelie
-- https://github.com/JohannesFolkesson
+- Mattias Eskilsson
+- Benjame Abi
+- Johannes Folkesson
+- Emelie Björkman
+- Idris Ahmed
+- Madeeha Basit
 
 ## Installation
 
